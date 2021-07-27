@@ -1,0 +1,258 @@
+-----------------------
+Fixture for command line arguements:
+
+import pytest
+from selenium import webdriver
+
+#command line arguements declaration for pytest
+def pytest_addoption(parser):
+    parser.addoption(
+        "--browser_name", action="store", default="chrome"
+    )
+
+
+@pytest.fixture(scope="class")
+def setup(request):
+    browser_name=request.config.getoption("browser_name")
+    if browser_name == "chrome":
+        path = "C:\\chromedriver.exe"
+        driver = webdriver.Chrome(path)
+    elif browser_name == "firefox":
+        path = "C:\\firefox.exe"
+        driver = webdriver.Firefox(path)
+        #you can implement for mutiple browsers in same way
+
+    driver.get("https://www.google.com")
+    driver.maximize_window()
+    #driver tat yu have intialised here will be connected to the class that uses this fixture driver
+    request.cls.driver = driver
+    yield
+    driver.close()
+
+
+-----------------------------
+
+We can mention all the page object in single class and then call these in the test sripts, so that they is reusability 
+of the code.
+
+Create say a different package -> In that create a file for each page object and in that create class and mention these objects
+
+path : C:\Users\shubhav\PycharmProjects\SeleniumPYFramework\pageObjects\HomePage.py
+
+from selenium.webdriver.common.by import By
+
+class HomePage:
+    #create constructor to pass the driver instance from the test script to the function here
+    def __init__(self,driver):
+        self.driver = driver
+
+
+    #open tuple wherein you mention the type of locator and then value of attribute (locator,value)
+    shop = (By.CSS_SELECTOR,"a[href*='shop']")
+    def shopItems(self):
+        #you need to provide * for the variable, then it will deserialise the variable and treats it as a tuple
+        #ex:
+        return self.driver.find_element(*HomePage.shop)
+        #it will treat as driver.find_element_by_css_selector("a[href*='shop']")
+
+
+path : C:\Users\shubhav\PycharmProjects\SeleniumPYFramework\tests\test_withHomePageClass.py
+
+Actual test script:
+
+#if you want to group the scripts according to keyname you can use as below ex: Smoke test cases
+from selenium.webdriver.common.keys import Keys
+from selenium import webdriver
+
+from pageObjects.HomePage import HomePage
+from utilities.BaseClass import BaseClass
+
+
+class TestOne1(BaseClass):
+    def test_e2e1(self):
+        #we are assigning the driver created as pass to homepage driver
+        homepage= HomePage(self.driver)
+        print("INFO: Wait for page to load")
+        self.driver.implicitly_wait(9)
+        homepage.shopItems().click()
+
+
+-- We can further reduce the number of object initialisation for evry class
+
+We can further include code in utilities i.e define as functions in Baseclass
+
+
+
+
+
+
+===================================
+
+Read/ Write File in python:
+
+You should first open the file and then do read , then finally you must close the file
+ex:
+
+path="C:\\Users\\shubhav\\textFile.txt"
+file=open(path)
+#read line at a time
+print(file.readline())
+#read entire file contents
+print(file.read())
+
+#read n no of characters
+print(file.read(3))
+
+file.close()
+
+
+def readLine():
+    path = "C:\\Users\\shubhav\\textFile.txt"
+    file = open(path)
+    #Read the first line
+    line = file.readline()
+    while line != "":
+        print(line)
+        #Read the next line
+        line = file.readline()
+
+readLine()
+
+
+path="C:\\Users\\shubhav\\textFile1.txt"
+file=open(path)
+#same as readline but stores in list
+s=file.readlines()
+for i in s:
+    print(i)
+
+o/p:
+
+C:\Users\shubhav\AppData\Local\Programs\Python\Python39\python.exe C:/Users/shubhav/PycharmProjects/ShubhaPy/FileRead.py
+Hello
+
+a
+b
+c
+
+
+
+Hello
+
+a
+
+b
+
+c
+
+
+
+
+
+Hello
+
+a
+
+b
+
+c
+
+End
+
+Proc
+
+
+
+===================
+
+API testing
+
+
+Json parsing
+
+import json
+
+
+JsonStr= '{"name": "ABC","Languages" :["Java","Python","C++"]}'
+
+#loads methos parse json string and will return dictionary
+
+dict=json.loads(JsonStr)
+print(type(dict))
+print(dict)
+
+print(dict['name'])
+print(dict['Languages'])
+l=dict['Languages']
+print(type(l))
+print(l[2])
+print(dict['Languages'][1])  #You can directly use index here as well
+
+o/p:
+
+C:\Users\shubhav\AppData\Local\Programs\Python\Python39\python.exe C:/Users/shubhav/PycharmProjects/APITesting/jasonParsing.py
+<class 'dict'>
+{'name': 'ABC', 'Languages': ['Java', 'Python', 'C++']}
+ABC
+['Java', 'Python', 'C++']
+<class 'list'>
+C++
+Python
+
+----
+Parse json when in a file
+
+
+import json
+
+#parse content from json file
+#load function used to parse json from file
+with open("C:\\Users\\shubhav\\PycharmProjects\\APITesting\\JsonFile.json", 'r') as f:
+    jP = json.load(f)
+    print(jP)
+    print(jP['total'])
+    print(jP['page'])
+    print(jP['data'][0])
+    print(jP['data'][3])
+    print(jP['data'
+
+
+o/p:
+
+C:\Users\shubhav\AppData\Local\Programs\Python\Python39\python.exe C:/Users/shubhav/PycharmProjects/APITesting/JsonFileParse.py
+{'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://reqres.in/img/faces/8-image.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://reqres.in/img/faces/9-image.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}]}
+12
+2
+{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}
+{'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}
+{'id': 8, 'email': 'linds
+
+
+
+
+----
+Comapre 2 json files
+
+import json
+
+#parse content from json file
+#load function used to parse json from file
+
+with open("C:\\Users\\shubhav\\PycharmProjects\\APITesting\\JsonFile.json", 'r') as f:
+    jP = json.load(f)
+
+with open("C:\\Users\\shubhav\\PycharmProjects\\APITesting\\JsonFile1.json", 'r') as fi:
+    jP1 = json.load(fi)
+
+#compare these 2 dictionaries
+print("P---1")
+print(jP)
+print("P---2")
+print(jP1)
+assert jP==jP1
+
+
+
+
+
+

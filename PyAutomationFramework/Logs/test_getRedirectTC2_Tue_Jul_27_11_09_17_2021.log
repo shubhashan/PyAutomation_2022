@@ -1,0 +1,15 @@
+2021-07-27 11:09:17,457 : INFO : test_getRedirectTC2 : ===== Start 'GET' method testing with redirection set to false
+2021-07-27 11:09:17,458 : INFO : test_getRedirectTC2 : testing redirection for url https://google.com
+2021-07-27 11:09:17,638 : INFO : test_getRedirectTC2 : ===The response history ===
+2021-07-27 11:09:17,638 : INFO : test_getRedirectTC2 : []
+2021-07-27 11:09:17,639 : INFO : test_getRedirectTC2 : The  response is :  <Response [301]>
+2021-07-27 11:09:17,639 : INFO : test_getRedirectTC2 : The response content is ========
+2021-07-27 11:09:17,641 : INFO : test_getRedirectTC2 : <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="https://www.google.com/">here</A>.
+</BODY></HTML>
+
+2021-07-27 11:09:17,642 : INFO : test_getRedirectTC2 : Redirection set to false works as expected
+2021-07-27 11:09:17,643 : INFO : test_getRedirectTC2 : =======TEST CASE PASSED=========

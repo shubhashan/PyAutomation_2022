@@ -1,0 +1,5 @@
+2021-07-27 11:47:45,146 : INFO : test_deleteReqP1 : ===== Start 'DELETE' method testing
+2021-07-27 11:47:45,146 : INFO : test_deleteReqP1 : testing for url https://reqres.in/api/users/2
+2021-07-27 11:47:45,661 : INFO : test_deleteReqP1 : <Response [204]>
+2021-07-27 11:47:45,661 : INFO : test_deleteReqP1 : User deletion passed
+2021-07-27 11:47:45,661 : INFO : test_deleteReqP1 : =======TEST CASE PASSED=========

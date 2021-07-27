@@ -1,0 +1,22 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1 -- c:\users\shubhav\appdata\local\programs\python\python39\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.9.6', 'Platform': 'Windows-10-10.0.19043-SP0', 'Packages': {'pytest': '6.2.4', 'py': '1.10.0', 'pluggy': '0.13.1'}, 'Plugins': {'html': '3.1.1', 'metadata': '1.11.0'}}
+rootdir: C:\Users\shubhav\PycharmProjects\APITesting\testScripts
+plugins: html-3.1.1, metadata-1.11.0
+collecting ... collected 1 item
+
+test_AttachFiles.py::TestPOSTFileUpload::test_postFileUploadTC1 C:\Users\shubhav\PycharmProjects\APITesting\testLogs\test_postFileUploadTC1_Mon_Jul_26_18_40_36_2021.log
+PASSED
+
+============================== warnings summary ===============================
+test_AttachFiles.py:7
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_AttachFiles.py:7: PytestUnknownMarkWarning: Unknown pytest.mark.httpPOST - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpPOST
+
+test_AttachFiles.py:8
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_AttachFiles.py:8: PytestUnknownMarkWarning: Unknown pytest.mark.APITests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.APITests
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================== 1 passed, 2 warnings in 1.42s ========================

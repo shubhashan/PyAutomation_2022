@@ -1,0 +1,30 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1 -- c:\users\shubhav\appdata\local\programs\python\python39\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.9.6', 'Platform': 'Windows-10-10.0.19043-SP0', 'Packages': {'pytest': '6.2.4', 'py': '1.10.0', 'pluggy': '0.13.1'}, 'Plugins': {'html': '3.1.1', 'metadata': '1.11.0'}}
+rootdir: C:\Users\shubhav\PycharmProjects\APITesting\testScripts
+plugins: html-3.1.1, metadata-1.11.0
+collecting ... collected 2 items
+
+test_GETwithRedirection.py::TestgetRedirect::test_getRedirectTC1 C:\Users\shubhav\PycharmProjects\APITesting\testLogs\test_getRedirectTC1_Mon_Jul_26_18_41_35_2021.log
+======REDIRECTION=====
+PASSED
+test_GETwithRedirection.py::TestgetRedirect::test_getRedirectTC2 C:\Users\shubhav\PycharmProjects\APITesting\testLogs\test_getRedirectTC2_Mon_Jul_26_18_41_39_2021.log
+======REDIRECTION=====
+PASSED
+
+============================== warnings summary ===============================
+test_GETwithRedirection.py:10
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_GETwithRedirection.py:10: PytestUnknownMarkWarning: Unknown pytest.mark.httpGET - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpGET
+
+test_GETwithRedirection.py:11
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_GETwithRedirection.py:11: PytestUnknownMarkWarning: Unknown pytest.mark.httpRedirect - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpRedirect
+
+test_GETwithRedirection.py:12
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_GETwithRedirection.py:12: PytestUnknownMarkWarning: Unknown pytest.mark.APITests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.APITests
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================== 2 passed, 3 warnings in 4.24s ========================

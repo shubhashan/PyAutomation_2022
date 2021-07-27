@@ -1,0 +1,2 @@
+2021-07-27 12:07:54,468 : INFO : test_getReqP6 : testing for url https://httpbin.org/delay/3
+2021-07-27 12:07:54,469 : INFO : test_getReqP6 : The GET method for timeout scenario, test case must fail as the response times out

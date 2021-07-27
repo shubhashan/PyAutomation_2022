@@ -1,0 +1,25 @@
+API testing automation
+
+
+MArks used:
+
+@pytest.mark.httpGET
+@pytest.mark.httpPOST
+@pytest.mark.httpPUT
+@pytest.mark.APITests
+
+Practice test scripts: ( in pytest format ) ---- no logging / fixtures used
+
+APIValidationsGET.py
+APIValidationsPOST.py
+APIValidationsPUT.py
+
+In PUT we need to specify all the values along with the one we need to update, whereas in 
+PUT - updates/replaces only if record exists. If doesnt exist it will create
+
+PATCH we need to send only the key=value that needs to  be updated.
+
+
+
+
+

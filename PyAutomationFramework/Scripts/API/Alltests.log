@@ -1,0 +1,95 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-6.2.4, py-1.10.0, pluggy-0.13.1 -- c:\users\shubhav\appdata\local\programs\python\python39\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.9.6', 'Platform': 'Windows-10-10.0.19043-SP0', 'Packages': {'pytest': '6.2.4', 'py': '1.10.0', 'pluggy': '0.13.1'}, 'Plugins': {'html': '3.1.1', 'metadata': '1.11.0'}}
+rootdir: C:\Users\shubhav\PycharmProjects\APITesting\testScripts
+plugins: html-3.1.1, metadata-1.11.0
+collecting ... [{'book_name': 'Learn API automation', 'isbn': 'KC', 'aisle': '243524'}, {'book_name': 'Learn API automation', 'isbn': 'KC', 'aisle': '2435124'}, {'book_name': 'Learn API automation', 'isbn': 'KC', 'aisle': '24324'}, {'book_name': 'Learn API automation', 'isbn': 'KC1', 'aisle': '24324'}, {'book_name': 'Learn API Automamtion', 'isbn': 'ABS', 'aisle': '45120'}, {'book_name': 'Learn API Automamtion+BDD', 'isbn': 'ABS', 'aisle': '45124'}, {'book_name': 'Devops', 'isbn': 'abcd', 'aisle': '75'}, {'book_name': 'Devops', 'isbn': 'asdasadsdas', 'aisle': '75'}, {'book_name': 'Learn with Java', 'isbn': 'RGHCC', 'aisle': '222'}, {'book_name': 'Learn with Java', 'isbn': 'RGHCC', 'aisle': '22233'}, {'book_name': 'Learn with Java', 'isbn': 'RGHCC', 'aisle': '2223355'}, {'book_name': 'Learn with Java', 'isbn': 'RGHCC', 'aisle': '2675'}, {'book_name': 'Learn with Java', 'isbn': 'RGHCC', 'aisle': '2675890'}, {'book_name': 'Learn with Java', 'isbn': 'asd', 'aisle': '2675'}, {'book_name': 'Jmeter', 'isbn': 'Amit', 'aisle': '234'}, {'book_name': 'Jmeter', 'isbn': 'Sumit', 'aisle': '234'}, {'book_name': 'Rest API Using HashMap', 'isbn': 'fdfsf', 'aisle': '89456'}, {'book_name': 'Rest API Using HashMap', 'isbn': 'fdfsf', 'aisle': '8988456'}, {'book_name': 'Learn API Automation', 'isbn': '0.87224316451056', 'aisle': '39'}, {'book_name': 'Learn API Automation', 'isbn': '0.937094934108351', 'aisle': '58'}, {'book_name': 'Learn API Automation', 'isbn': '3434', 'aisle': '69'}, {'book_name': 'Learn API Automation from RSA', 'isbn': 'RSA901', 'aisle': '901'}, {'book_name': 'Selenium Tutorials', 'isbn': 'bcd', 'aisle': '259'}, {'book_name': 'Learn with Java', 'isbn': 'sdfskdf', 'aisle': '2675'}, {'book_name': 'Rest Api', 'isbn': 'bcd', 'aisle': '26578'}, {'book_name': 'Learn with Java', 'isbn': 'terwer', 'aisle': '123'}, {'book_name': 'Learn with Java', 'isbn': 'fsdfa', 'aisle': '1267'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '85'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '86'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '87'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '89'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '90'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '91'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '92'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '93'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '102'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '112'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '113'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '114'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '116'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '118'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '119'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '120'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '121'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '122'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '123'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '125'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '126'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '128'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '129'}, {'book_name': 'Devops', 'isbn': 'Seyn', 'aisle': '75'}, {'book_name': 'Selenium', 'isbn': 'kosncs34fr', 'aisle': '23'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '131'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '134'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '135'}, {'book_name': 'RestAssured', 'isbn': 'exampleIs', 'aisle': '4564'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '137'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '138'}, {'book_name': 'Devops', 'isbn': 'bnid34', 'aisle': '141'}, {'book_name': 'Learn Appium Automation with Java', 'isbn': 'RGHCC', 'aisle': '22755'}, {'book_name': 'Learn Appium Automation with Java', 'isbn': 'RGHCC', 'aisle': '99755'}, {'book_name': 'Learn Appium Automation with Java', 'isbn': 'RGHCC', 'aisle': '997555'}, {'book_name': 'Learn Appium Automation with Java', 'isbn': 'RGHCC', 'aisle': '997005'}, {'book_name': 'Learn Appium Automation with Java', 'isbn': 'RGHCC', 'aisle': '997055'}, {'book_name': 'Learn Appium Automation with Java', 'isbn': 'piyush', 'aisle': '2274686'}, {'book_name': 'Learn Appium Automation with Java', 'isbn': 'piyush', 'aisle': '2274687'}, {'book_name': 'Learn Appium Automation with Java', 'isbn': 'piyush', 'aisle': '22746871'}, {'book_name': 'Learn RestAssured with Rahul', 'isbn': 'leraning1', 'aisle': '1'}, {'book_name': 'Learn Postman with Rahul', 'isbn': 'leraning2', 'aisle': '2'}, {'book_name': 'Learn webdriver.io', 'isbn': '123461537', 'aisle': '34572371'}, {'book_name': 'Learn webdriver.io1', 'isbn': '1234615371', 'aisle': '345723711'}]
+Learn API automation
+KC
+{'msg': 'Add Book operation failed, looks like the book already exists'}
+collected 21 items / 1 error / 3 deselected / 17 selected
+
+=================================== ERRORS ====================================
+_______________________ ERROR collecting test_APIAll.py _______________________
+test_APIAll.py:29: in <module>
+    bookID=Jres['ID']
+E   KeyError: 'ID'
+============================== warnings summary ===============================
+test_APIValidationsDelete.py:11
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_APIValidationsDelete.py:11: PytestUnknownMarkWarning: Unknown pytest.mark.httpDELETE - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpDELETE
+
+test_APIValidationsDelete.py:12
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_APIValidationsDelete.py:12: PytestUnknownMarkWarning: Unknown pytest.mark.APITests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.APITests
+
+test_APIValidationsGET.py:11
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_APIValidationsGET.py:11: PytestUnknownMarkWarning: Unknown pytest.mark.httpGET - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpGET
+
+test_APIValidationsGET.py:12
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_APIValidationsGET.py:12: PytestUnknownMarkWarning: Unknown pytest.mark.APITests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.APITests
+
+test_APIValidationsPOST.py:12
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_APIValidationsPOST.py:12: PytestUnknownMarkWarning: Unknown pytest.mark.httpPOST - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpPOST
+
+test_APIValidationsPOST.py:13
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_APIValidationsPOST.py:13: PytestUnknownMarkWarning: Unknown pytest.mark.APITests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.APITests
+
+test_APIValidationsPUT.py:11
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_APIValidationsPUT.py:11: PytestUnknownMarkWarning: Unknown pytest.mark.httpPUT - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpPUT
+
+test_APIValidationsPUT.py:12
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_APIValidationsPUT.py:12: PytestUnknownMarkWarning: Unknown pytest.mark.APITests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.APITests
+
+test_APIValidationsPUT.py:29
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_APIValidationsPUT.py:29: PytestUnknownMarkWarning: Unknown pytest.mark.httpPATCH - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpPATCH
+
+test_APIValidationsPUT.py:30
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_APIValidationsPUT.py:30: PytestUnknownMarkWarning: Unknown pytest.mark.APITests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.APITests
+
+test_AttachFiles.py:7
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_AttachFiles.py:7: PytestUnknownMarkWarning: Unknown pytest.mark.httpPOST - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpPOST
+
+test_AttachFiles.py:8
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_AttachFiles.py:8: PytestUnknownMarkWarning: Unknown pytest.mark.APITests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.APITests
+
+test_GETwithAUTH.py:11
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_GETwithAUTH.py:11: PytestUnknownMarkWarning: Unknown pytest.mark.httpGET - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpGET
+
+test_GETwithAUTH.py:12
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_GETwithAUTH.py:12: PytestUnknownMarkWarning: Unknown pytest.mark.httpWithAuth - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpWithAuth
+
+test_GETwithAUTH.py:13
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_GETwithAUTH.py:13: PytestUnknownMarkWarning: Unknown pytest.mark.APITests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.APITests
+
+test_GETwithRedirection.py:10
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_GETwithRedirection.py:10: PytestUnknownMarkWarning: Unknown pytest.mark.httpGET - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpGET
+
+test_GETwithRedirection.py:11
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_GETwithRedirection.py:11: PytestUnknownMarkWarning: Unknown pytest.mark.httpRedirect - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.httpRedirect
+
+test_GETwithRedirection.py:12
+  C:\Users\shubhav\PycharmProjects\APITesting\testScripts\test_GETwithRedirection.py:12: PytestUnknownMarkWarning: Unknown pytest.mark.APITests - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.APITests
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=========================== short test summary info ===========================
+ERROR test_APIAll.py - KeyError: 'ID'
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+================= 3 deselected, 18 warnings, 1 error in 1.86s =================

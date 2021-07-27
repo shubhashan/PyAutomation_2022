@@ -1,0 +1,16 @@
+2021-07-27 11:46:58,793 : INFO : test_patchReqP1 : ===== Start  'PATCH' method testing
+2021-07-27 11:46:58,793 : INFO : test_patchReqP1 : testing for url https://reqres.in/api/users
+2021-07-27 11:46:58,793 : INFO : test_patchReqP1 : testing PATCH update for data {
+"name": "ABC1234$$$%",
+"job": "leader123@!##$789"
+}
+2021-07-27 11:47:00,168 : INFO : test_patchReqP1 : <Response [200]>
+2021-07-27 11:47:00,168 : INFO : test_patchReqP1 : ========== JSON response======
+2021-07-27 11:47:00,168 : INFO : test_patchReqP1 : {'updatedAt': '2021-07-27T06:16:53.278Z'}
+2021-07-27 11:47:00,183 : INFO : test_patchReqP1 : testing for data {
+"name": "XYZsbfkdj"
+}
+2021-07-27 11:47:00,590 : INFO : test_patchReqP1 : <Response [200]>
+2021-07-27 11:47:00,590 : INFO : test_patchReqP1 : {'updatedAt': '2021-07-27T06:16:53.690Z'}
+2021-07-27 11:47:00,590 : INFO : test_patchReqP1 : Update doing PATCH successful
+2021-07-27 11:47:00,605 : INFO : test_patchReqP1 : ==== TEST CASE PASSED======

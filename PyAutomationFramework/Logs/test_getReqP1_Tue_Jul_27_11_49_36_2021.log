@@ -1,0 +1,10 @@
+2021-07-27 11:49:36,765 : INFO : test_getReqP1 : ===== Start  'GET' method testing
+2021-07-27 11:49:36,765 : INFO : test_getReqP1 : testing for url https://reqres.in/api/users?page=2
+2021-07-27 11:49:43,062 : INFO : test_getReqP1 : <Response [200]>
+2021-07-27 11:49:43,062 : INFO : test_getReqP1 : ======JSON response========
+2021-07-27 11:49:43,062 : INFO : test_getReqP1 : {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://reqres.in/img/faces/8-image.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://reqres.in/img/faces/9-image.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://reqres.in/img/faces/11-image.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://reqres.in/img/faces/12-image.jpg'}], 'support': {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}}
+2021-07-27 11:49:43,062 : INFO : test_getReqP1 : ===============
+2021-07-27 11:49:43,062 : INFO : test_getReqP1 : == Verifying the total no of pages is 12
+2021-07-27 11:49:43,062 : INFO : test_getReqP1 : Verification passed
+2021-07-27 11:49:43,062 : INFO : test_getReqP1 : michael.lawson@reqres.in
+2021-07-27 11:49:43,062 : INFO : test_getReqP1 : Lindsay

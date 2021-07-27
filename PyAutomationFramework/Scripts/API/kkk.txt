@@ -1,0 +1,11 @@
+API testing:
+
+
+1. use pytest marks
+
+@pytest.mark.httpGET
+@pytest.mark.APITests
+
+
+All GET requests --- > APIValidationsGET.py
+
