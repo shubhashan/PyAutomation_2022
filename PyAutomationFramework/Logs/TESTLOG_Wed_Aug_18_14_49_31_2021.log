@@ -1,0 +1,33 @@
+ 2021-08-18 14:49:31,517 : INFO : Getting the browser name from the CLI
+ 2021-08-18 14:49:33,673 : INFO : Opening the browser instance for chrome
+ 2021-08-18 14:49:38,464 : INFO : ***************   TestCase : 'test_POM_searchEmail' STARTS    *************
+ 2021-08-18 14:49:38,465 : INFO : ---------------------------------------------------------------------
+ 2021-08-18 14:49:38,478 : INFO : Launching the browser for https://admin-demo.nopcommerce.com
+ 2021-08-18 14:49:43,198 : INFO : Enter Email
+ 2021-08-18 14:49:43,377 : INFO : Enter password
+ 2021-08-18 14:49:43,632 : INFO : Click on Login
+ 2021-08-18 14:50:00,367 : INFO : Email search
+ 2021-08-18 14:50:00,367 : INFO : True
+ 2021-08-18 14:50:05,417 : INFO :                            
+ 2021-08-18 14:50:05,421 : INFO : ***********************       TEST END         ***********************
+ 2021-08-18 14:50:05,421 : INFO : ----------------------------------------------------------------------
+ 2021-08-18 14:50:05,682 : INFO : Getting the browser name from the CLI
+ 2021-08-18 14:50:07,783 : INFO : Opening the browser instance for chrome
+ 2021-08-18 14:50:09,675 : INFO : ***************   TestCase : 'test_uiTC2' STARTS    *************
+ 2021-08-18 14:50:09,675 : INFO : ---------------------------------------------------------------------
+ 2021-08-18 14:50:09,676 : INFO : testing test_uiTC2, Login to nopcommerce
+ 2021-08-18 14:50:09,677 : INFO : INFO: Google successfully opened in browser
+ 2021-08-18 14:50:14,875 : INFO :                            
+ 2021-08-18 14:50:14,876 : INFO : ***********************       TEST END         ***********************
+ 2021-08-18 14:50:14,876 : INFO : ----------------------------------------------------------------------
+ 2021-08-18 14:50:15,112 : INFO : Getting the browser name from the CLI
+ 2021-08-18 14:50:16,942 : INFO : Opening the browser instance for chrome
+ 2021-08-18 14:50:19,095 : INFO : ***************   TestCase : 'test_uiTC1' STARTS    *************
+ 2021-08-18 14:50:19,095 : INFO : ---------------------------------------------------------------------
+ 2021-08-18 14:50:19,095 : INFO : testing test_uiTC1, searching for Synerzip in google and opening the official website
+ 2021-08-18 14:50:19,095 : INFO : INFO: Google successfully opened in browser
+ 2021-08-18 14:50:19,212 : INFO : INFO: Hit ENTER
+ 2021-08-18 14:50:21,712 : INFO : INFO: Enter Synerzip and search in google
+ 2021-08-18 14:50:34,440 : INFO :                            
+ 2021-08-18 14:50:34,441 : INFO : ***********************       TEST END         ***********************
+ 2021-08-18 14:50:34,441 : INFO : ----------------------------------------------------------------------

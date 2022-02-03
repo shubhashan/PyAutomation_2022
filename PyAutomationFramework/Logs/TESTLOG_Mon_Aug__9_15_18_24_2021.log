@@ -1,0 +1,11 @@
+ 2021-08-09 15:18:24,754 : INFO : Getting the browser name from the CLI : chrome
+ 2021-08-09 15:18:26,803 : INFO : Opening the browser instance
+ 2021-08-09 15:18:28,733 : INFO : ***************   TestCase : 'test_uiTC1' STARTS    *************
+ 2021-08-09 15:18:28,733 : INFO : ---------------------------------------------------------------------
+ 2021-08-09 15:18:28,734 : INFO : testing test_uiTC1
+ 2021-08-09 15:18:28,735 : INFO : INFO: Google successfully opened in browser
+ 2021-08-09 15:18:28,842 : INFO : INFO: Hit ENTER
+ 2021-08-09 15:18:30,932 : INFO : INFO: Enter Synerzip and serach in google
+ 2021-08-09 15:18:45,651 : INFO :                            
+ 2021-08-09 15:18:45,651 : INFO : ***********************       TEST END         ***********************
+ 2021-08-09 15:18:45,651 : INFO : ----------------------------------------------------------------------

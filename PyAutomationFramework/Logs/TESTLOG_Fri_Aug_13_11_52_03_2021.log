@@ -1,0 +1,68 @@
+ 2021-08-13 11:52:03,687 : INFO : ***************   TestCase : 'test_getReqP1' STARTS    *************
+ 2021-08-13 11:52:03,687 : INFO : ---------------------------------------------------------------------
+ 2021-08-13 11:52:03,687 : INFO : ===== Start  'GET' method testing
+ 2021-08-13 11:52:03,687 : INFO : testing for url https://reqres.in/api/users?page=2
+ 2021-08-13 11:52:03,954 : INFO : <Response [200]>
+ 2021-08-13 11:52:03,954 : INFO : ======JSON response========
+ 2021-08-13 11:52:03,954 : INFO : {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://reqres.in/img/faces/8-image.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://reqres.in/img/faces/9-image.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://reqres.in/img/faces/11-image.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://reqres.in/img/faces/12-image.jpg'}], 'support': {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}}
+ 2021-08-13 11:52:03,961 : INFO : ===============
+ 2021-08-13 11:52:03,962 : INFO : == Verifying the total no of pages is 12
+ 2021-08-13 11:52:03,962 : INFO : Verification passed
+ 2021-08-13 11:52:03,963 : INFO : michael.lawson@reqres.in
+ 2021-08-13 11:52:03,963 : INFO : Lindsay
+ 2021-08-13 11:52:03,967 : INFO :                            
+ 2021-08-13 11:52:03,968 : INFO : ***********************       TEST END         ***********************
+ 2021-08-13 11:52:03,968 : INFO : ----------------------------------------------------------------------
+ 2021-08-13 11:52:03,972 : INFO : ***************   TestCase : 'test_getReqP2' STARTS    *************
+ 2021-08-13 11:52:03,972 : INFO : ---------------------------------------------------------------------
+ 2021-08-13 11:52:03,975 : INFO : ===== Start  'GET' method testing
+ 2021-08-13 11:52:03,975 : INFO : testing for url https://reqres.in/api/users?page=2
+ 2021-08-13 11:52:04,089 : INFO : 200
+ 2021-08-13 11:52:04,089 : INFO : ======JSON response========
+ 2021-08-13 11:52:04,089 : INFO : {'page': 2, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 7, 'email': 'michael.lawson@reqres.in', 'first_name': 'Michael', 'last_name': 'Lawson', 'avatar': 'https://reqres.in/img/faces/7-image.jpg'}, {'id': 8, 'email': 'lindsay.ferguson@reqres.in', 'first_name': 'Lindsay', 'last_name': 'Ferguson', 'avatar': 'https://reqres.in/img/faces/8-image.jpg'}, {'id': 9, 'email': 'tobias.funke@reqres.in', 'first_name': 'Tobias', 'last_name': 'Funke', 'avatar': 'https://reqres.in/img/faces/9-image.jpg'}, {'id': 10, 'email': 'byron.fields@reqres.in', 'first_name': 'Byron', 'last_name': 'Fields', 'avatar': 'https://reqres.in/img/faces/10-image.jpg'}, {'id': 11, 'email': 'george.edwards@reqres.in', 'first_name': 'George', 'last_name': 'Edwards', 'avatar': 'https://reqres.in/img/faces/11-image.jpg'}, {'id': 12, 'email': 'rachel.howell@reqres.in', 'first_name': 'Rachel', 'last_name': 'Howell', 'avatar': 'https://reqres.in/img/faces/12-image.jpg'}], 'support': {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}}
+ 2021-08-13 11:52:04,089 : INFO : ===============
+ 2021-08-13 11:52:04,089 : INFO : Lindsay
+ 2021-08-13 11:52:04,089 : INFO : NAme is not same, negative case
+ 2021-08-13 11:52:04,089 : INFO : ==== TEST CASE PASSED
+ 2021-08-13 11:52:04,108 : INFO :                            
+ 2021-08-13 11:52:04,108 : INFO : ***********************       TEST END         ***********************
+ 2021-08-13 11:52:04,109 : INFO : ----------------------------------------------------------------------
+ 2021-08-13 11:52:04,113 : INFO : ***************   TestCase : 'test_getReqP3' STARTS    *************
+ 2021-08-13 11:52:04,113 : INFO : ---------------------------------------------------------------------
+ 2021-08-13 11:52:04,113 : INFO : ===== Start  'GET' method testing
+ 2021-08-13 11:52:04,113 : INFO : testing for url https://reqres.in/api/users
+ 2021-08-13 11:52:04,640 : INFO : 200
+ 2021-08-13 11:52:04,640 : INFO : ======JSON response========
+ 2021-08-13 11:52:04,640 : INFO : {'page': 1, 'per_page': 6, 'total': 12, 'total_pages': 2, 'data': [{'id': 1, 'email': 'george.bluth@reqres.in', 'first_name': 'George', 'last_name': 'Bluth', 'avatar': 'https://reqres.in/img/faces/1-image.jpg'}, {'id': 2, 'email': 'janet.weaver@reqres.in', 'first_name': 'Janet', 'last_name': 'Weaver', 'avatar': 'https://reqres.in/img/faces/2-image.jpg'}, {'id': 3, 'email': 'emma.wong@reqres.in', 'first_name': 'Emma', 'last_name': 'Wong', 'avatar': 'https://reqres.in/img/faces/3-image.jpg'}, {'id': 4, 'email': 'eve.holt@reqres.in', 'first_name': 'Eve', 'last_name': 'Holt', 'avatar': 'https://reqres.in/img/faces/4-image.jpg'}, {'id': 5, 'email': 'charles.morris@reqres.in', 'first_name': 'Charles', 'last_name': 'Morris', 'avatar': 'https://reqres.in/img/faces/5-image.jpg'}, {'id': 6, 'email': 'tracey.ramos@reqres.in', 'first_name': 'Tracey', 'last_name': 'Ramos', 'avatar': 'https://reqres.in/img/faces/6-image.jpg'}], 'support': {'url': 'https://reqres.in/#support-heading', 'text': 'To keep ReqRes free, contributions towards server costs are appreciated!'}}
+ 2021-08-13 11:52:04,640 : INFO : ===============
+ 2021-08-13 11:52:04,640 : INFO : Janet
+ 2021-08-13 11:52:04,652 : INFO :                            
+ 2021-08-13 11:52:04,653 : INFO : ***********************       TEST END         ***********************
+ 2021-08-13 11:52:04,653 : INFO : ----------------------------------------------------------------------
+ 2021-08-13 11:52:04,659 : INFO : ***************   TestCase : 'test_getReqP4' STARTS    *************
+ 2021-08-13 11:52:04,659 : INFO : ---------------------------------------------------------------------
+ 2021-08-13 11:52:04,660 : INFO : ===== Start  'GET' method testing
+ 2021-08-13 11:52:04,660 : INFO : testing for url https://reqres.in/api/users/23
+ 2021-08-13 11:52:05,154 : INFO : 404
+ 2021-08-13 11:52:05,154 : INFO : {}
+ 2021-08-13 11:52:05,155 : INFO : Accessing invalid response ... Status is 404 
+ 2021-08-13 11:52:05,155 : INFO : === TEST CASE PASSED
+ 2021-08-13 11:52:05,157 : INFO :                            
+ 2021-08-13 11:52:05,157 : INFO : ***********************       TEST END         ***********************
+ 2021-08-13 11:52:05,157 : INFO : ----------------------------------------------------------------------
+ 2021-08-13 11:52:05,159 : INFO : ***************   TestCase : 'test_getReqP5' STARTS    *************
+ 2021-08-13 11:52:05,159 : INFO : ---------------------------------------------------------------------
+ 2021-08-13 11:52:05,160 : INFO : testing for url https://httpbin.org/delay/3
+ 2021-08-13 11:52:09,351 : INFO : 200
+ 2021-08-13 11:52:09,362 : INFO :                            
+ 2021-08-13 11:52:09,362 : INFO : ***********************       TEST END         ***********************
+ 2021-08-13 11:52:09,362 : INFO : ----------------------------------------------------------------------
+ 2021-08-13 11:52:09,367 : INFO : ***************   TestCase : 'test_getReqP6' STARTS    *************
+ 2021-08-13 11:52:09,368 : INFO : ---------------------------------------------------------------------
+ 2021-08-13 11:52:09,368 : INFO : testing for url https://httpbin.org/delay/3
+ 2021-08-13 11:52:09,368 : INFO : The GET method for timeout scenario,  the response times out
+ 2021-08-13 11:52:12,285 : INFO : HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=2)
+ 2021-08-13 11:52:12,285 : INFO : GET method Time-out occured
+ 2021-08-13 11:52:12,289 : INFO :                            
+ 2021-08-13 11:52:12,289 : INFO : ***********************       TEST END         ***********************
+ 2021-08-13 11:52:12,289 : INFO : ----------------------------------------------------------------------

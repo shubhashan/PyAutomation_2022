@@ -1,0 +1,9 @@
+ 2021-08-11 18:21:24,083 : INFO : Getting the browser name from the CLI
+ 2021-08-11 18:21:26,041 : INFO : Opening the browser instance for chrome
+ 2021-08-11 18:21:28,135 : INFO : ***************   TestCase : 'test_uiTC2' STARTS    *************
+ 2021-08-11 18:21:28,136 : INFO : ---------------------------------------------------------------------
+ 2021-08-11 18:21:28,136 : INFO : testing test_uiTC2, Login to nopcommerce
+ 2021-08-11 18:21:28,138 : INFO : INFO: Google successfully opened in browser
+ 2021-08-11 18:21:28,148 : INFO :                            
+ 2021-08-11 18:21:28,149 : INFO : ***********************       TEST END         ***********************
+ 2021-08-11 18:21:28,149 : INFO : ----------------------------------------------------------------------

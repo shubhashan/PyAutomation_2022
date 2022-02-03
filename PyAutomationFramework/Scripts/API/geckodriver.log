@@ -1,0 +1,55 @@
+1628504628912	geckodriver	INFO	Listening on 127.0.0.1:58547
+1628504631973	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofilefYkhau"
+1628504633134	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofilefYkhau\\search.json.mozlz4", (void 0)))
+1628504637613	Marionette	INFO	Listening on port 58555
+1628504638802	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+1628504656277	Marionette	INFO	Stopped listening on port 58555
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit sba4b_firefox_quantum@checkpoint.com.274877907091
+1628505875817	geckodriver	INFO	Listening on 127.0.0.1:57342
+1628505878900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofileJTDYZz"
+1628505880264	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofileJTDYZz\\search.json.mozlz4", (void 0)))
+1628505885575	Marionette	INFO	Listening on port 57350
+1628505886749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628505891271	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+1628505907206	Marionette	INFO	Stopped listening on port 57350
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit sba4b_firefox_quantum@checkpoint.com.274877907091
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629278575180	geckodriver	INFO	Listening on 127.0.0.1:54877
+1629278578222	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofileyR0qAq"
+1629278589033	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofileyR0qAq\\search.json.mozlz4", (void 0)))
+1629278611890	Marionette	INFO	Listening on port 65499
+1629278612383	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629278630017	Marionette	INFO	Stopped listening on port 65499
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit sba4b_firefox_quantum@checkpoint.com.274877907091
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629278633607	geckodriver	INFO	Listening on 127.0.0.1:52740
+1629278636631	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofilejwY1yi"
+1629278638292	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofilejwY1yi\\search.json.mozlz4", (void 0)))
+1629278644002	Marionette	INFO	Listening on port 63414
+1629278645102	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629278665088	Marionette	INFO	Stopped listening on port 63414
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit sba4b_firefox_quantum@checkpoint.com.274877907091
+1629278666989	geckodriver	INFO	Listening on 127.0.0.1:59177
+1629278670064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofileZ11vFx"
+1629278670682	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofileZ11vFx\\search.json.mozlz4", (void 0)))
+1629278674717	Marionette	INFO	Listening on port 58474
+1629278676161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1629278679374	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+1629278702839	Marionette	INFO	Stopped listening on port 58474
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit sba4b_firefox_quantum@checkpoint.com.274877907091

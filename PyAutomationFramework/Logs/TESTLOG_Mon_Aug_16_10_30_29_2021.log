@@ -1,0 +1,19 @@
+ 2021-08-16 10:30:29,644 : INFO : ***************   TestCase : 'test_postFileUploadTC1' STARTS    *************
+ 2021-08-16 10:30:29,645 : INFO : ---------------------------------------------------------------------
+ 2021-08-16 10:30:29,645 : INFO : ===== Start 'POST' method testing for file upload
+ 2021-08-16 10:30:29,663 : INFO : testing for url http://httpbin.org/post
+ 2021-08-16 10:30:30,301 : INFO : ====Files content before upload====
+ 2021-08-16 10:30:30,301 : INFO : {}
+ 2021-08-16 10:30:30,301 : INFO : ===== JSON response========
+ 2021-08-16 10:30:30,301 : INFO : {'args': {}, 'data': '', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '0', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.25.1', 'X-Amzn-Trace-Id': 'Root=1-6119f0e1-0debbc834c6be969255baef8'}, 'json': None, 'origin': '27.59.57.48', 'url': 'http://httpbin.org/post'}
+ 2021-08-16 10:30:30,301 : INFO : File to upload is  {'file': <_io.BufferedReader name='kkk.txt'>}
+ 2021-08-16 10:30:30,885 : INFO : 200
+ 2021-08-16 10:30:30,885 : INFO : ====Files content after upload====
+ 2021-08-16 10:30:30,885 : INFO : {'file': 'API testing:\r\n\r\n\r\n1. use pytest marks\r\n\r\n@pytest.mark.httpGET\r\n@pytest.mark.APITests\r\n\r\n\r\nAll GET requests --- > APIValidationsGET.py\r\n\r\n'}
+ 2021-08-16 10:30:30,885 : INFO : ===== JSON response========
+ 2021-08-16 10:30:30,885 : INFO : {'args': {}, 'data': '', 'files': {'file': 'API testing:\r\n\r\n\r\n1. use pytest marks\r\n\r\n@pytest.mark.httpGET\r\n@pytest.mark.APITests\r\n\r\n\r\nAll GET requests --- > APIValidationsGET.py\r\n\r\n'}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '280', 'Content-Type': 'multipart/form-data; boundary=e3bac8f7ca2fa52dad7813067af3e3ab', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.25.1', 'X-Amzn-Trace-Id': 'Root=1-6119f0e2-551245b6146883281943f653'}, 'json': None, 'origin': '27.59.57.48', 'url': 'http://httpbin.org/post'}
+ 2021-08-16 10:30:30,885 : INFO : File upload was successful
+ 2021-08-16 10:30:30,885 : INFO : ==== TEST CASE PASSED====
+ 2021-08-16 10:30:30,901 : INFO :                            
+ 2021-08-16 10:30:30,916 : INFO : ***********************       TEST END         ***********************
+ 2021-08-16 10:30:30,916 : INFO : ----------------------------------------------------------------------

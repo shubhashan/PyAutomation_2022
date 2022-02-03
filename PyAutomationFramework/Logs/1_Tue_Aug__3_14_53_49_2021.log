@@ -1,0 +1,21 @@
+ 2021-08-03 14:53:49,415 : INFO : ***************   TestCase : 'test_postFileUploadTC1' STARTS    *************
+ 2021-08-03 14:53:49,416 : INFO : ---------------------------------------------------------------------
+ 2021-08-03 14:53:49,416 : INFO : ===== Start 'POST' method testing for file upload
+ 2021-08-03 14:53:49,418 : ERROR : Exception occured
+ 2021-08-03 14:53:49,418 : INFO : No option 'url233' in section: 'test_postFileUploadTC1'
+ 2021-08-03 14:53:49,418 : INFO : testing for url http://httpbin.org/post
+ 2021-08-03 14:53:50,041 : INFO : ====Files content before upload====
+ 2021-08-03 14:53:50,061 : INFO : {}
+ 2021-08-03 14:53:50,061 : INFO : ===== JSON response========
+ 2021-08-03 14:53:50,061 : INFO : {'args': {}, 'data': '', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '0', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.25.1', 'X-Amzn-Trace-Id': 'Root=1-61090b1d-00b1bdd477cd709714b4922d'}, 'json': None, 'origin': '223.184.19.16', 'url': 'http://httpbin.org/post'}
+ 2021-08-03 14:53:50,061 : INFO : File to upload is  {'file': <_io.BufferedReader name='kkk.txt'>}
+ 2021-08-03 14:53:50,683 : INFO : 200
+ 2021-08-03 14:53:50,683 : INFO : ====Files content after upload====
+ 2021-08-03 14:53:50,684 : INFO : {'file': 'API testing:\r\n\r\n\r\n1. use pytest marks\r\n\r\n@pytest.mark.httpGET\r\n@pytest.mark.APITests\r\n\r\n\r\nAll GET requests --- > APIValidationsGET.py\r\n\r\n'}
+ 2021-08-03 14:53:50,684 : INFO : ===== JSON response========
+ 2021-08-03 14:53:50,684 : INFO : {'args': {}, 'data': '', 'files': {'file': 'API testing:\r\n\r\n\r\n1. use pytest marks\r\n\r\n@pytest.mark.httpGET\r\n@pytest.mark.APITests\r\n\r\n\r\nAll GET requests --- > APIValidationsGET.py\r\n\r\n'}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '280', 'Content-Type': 'multipart/form-data; boundary=4a42230119351c57148f4baac598f082', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.25.1', 'X-Amzn-Trace-Id': 'Root=1-61090b1d-5eb1155b6fe2dceb6951c454'}, 'json': None, 'origin': '223.184.19.16', 'url': 'http://httpbin.org/post'}
+ 2021-08-03 14:53:50,684 : INFO : File upload was successful
+ 2021-08-03 14:53:50,684 : INFO : ==== TEST CASE PASSED====
+ 2021-08-03 14:53:50,689 : INFO :                            
+ 2021-08-03 14:53:50,690 : INFO : ***********************       TEST END         ***********************
+ 2021-08-03 14:53:50,690 : INFO : ----------------------------------------------------------------------

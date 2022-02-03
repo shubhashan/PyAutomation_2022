@@ -1,0 +1,18 @@
+[
+  "test_APIValidationsGET.py::TestGETReq::test_getReqP1",
+  "test_APIValidationsGET.py::TestGETReq::test_getReqP2",
+  "test_APIValidationsGET.py::TestGETReq::test_getReqP3",
+  "test_APIValidationsGET.py::TestGETReq::test_getReqP4",
+  "test_APIValidationsGET.py::TestGETReq::test_getReqP5",
+  "test_APIValidationsGET.py::TestGETReq::test_getReqP6",
+  "test_AttachFiles.py::TestPOSTFileUpload::test_postFileUploadTC1",
+  "test_POMLogin.py::TestPOMOne::test_POM_login",
+  "test_POMSerachCust.py::TestPOMOne::test_POM_login",
+  "test_POMSerachCust.py::TestPOMOne::test_POM_searchEmail",
+  "test_POMSerachCust.py::TestPOMOne::test_POM_searchName",
+  "test_POMsearchbyemail.py::TestPOMOne::test_POM_searchEmail",
+  "test_UI2.py::TestUIOne1::test_uiTC2",
+  "test_UI_prac.py::TestUIOne::test_uiTC1",
+  "test_sql.py::TestmySQLOne::test_mySQLTC1",
+  "test_test1.py::TestPOM2One::test_POM_login2"
+]

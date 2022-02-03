@@ -1,0 +1,19 @@
+ 2021-08-09 14:40:03,210 : INFO : ***************   TestCase : 'test_postFileUploadTC1' STARTS    *************
+ 2021-08-09 14:40:03,210 : INFO : ---------------------------------------------------------------------
+ 2021-08-09 14:40:03,210 : INFO : ===== Start 'POST' method testing for file upload
+ 2021-08-09 14:40:03,210 : INFO : testing for url http://httpbin.org/post
+ 2021-08-09 14:40:03,881 : INFO : ====Files content before upload====
+ 2021-08-09 14:40:03,881 : INFO : {}
+ 2021-08-09 14:40:03,881 : INFO : ===== JSON response========
+ 2021-08-09 14:40:03,881 : INFO : {'args': {}, 'data': '', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '0', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.25.1', 'X-Amzn-Trace-Id': 'Root=1-6110f0e1-2f94152a1261e4ae4b34ca70'}, 'json': None, 'origin': '122.172.204.213', 'url': 'http://httpbin.org/post'}
+ 2021-08-09 14:40:03,881 : INFO : File to upload is  {'file': <_io.BufferedReader name='kkk.txt'>}
+ 2021-08-09 14:40:04,397 : INFO : 200
+ 2021-08-09 14:40:04,397 : INFO : ====Files content after upload====
+ 2021-08-09 14:40:04,397 : INFO : {'file': 'API testing:\r\n\r\n\r\n1. use pytest marks\r\n\r\n@pytest.mark.httpGET\r\n@pytest.mark.APITests\r\n\r\n\r\nAll GET requests --- > APIValidationsGET.py\r\n\r\n'}
+ 2021-08-09 14:40:04,397 : INFO : ===== JSON response========
+ 2021-08-09 14:40:04,397 : INFO : {'args': {}, 'data': '', 'files': {'file': 'API testing:\r\n\r\n\r\n1. use pytest marks\r\n\r\n@pytest.mark.httpGET\r\n@pytest.mark.APITests\r\n\r\n\r\nAll GET requests --- > APIValidationsGET.py\r\n\r\n'}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '280', 'Content-Type': 'multipart/form-data; boundary=a391c05684b54c55b91b222c03dfbbb5', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.25.1', 'X-Amzn-Trace-Id': 'Root=1-6110f0e1-60e690a35d16da3333e2ea80'}, 'json': None, 'origin': '122.172.204.213', 'url': 'http://httpbin.org/post'}
+ 2021-08-09 14:40:04,397 : INFO : File upload was successful
+ 2021-08-09 14:40:04,397 : INFO : ==== TEST CASE PASSED====
+ 2021-08-09 14:40:04,397 : INFO :                            
+ 2021-08-09 14:40:04,397 : INFO : ***********************       TEST END         ***********************
+ 2021-08-09 14:40:04,397 : INFO : ----------------------------------------------------------------------

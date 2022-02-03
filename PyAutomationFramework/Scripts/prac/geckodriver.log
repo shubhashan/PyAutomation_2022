@@ -1,0 +1,9 @@
+1628504487464	geckodriver	INFO	Listening on 127.0.0.1:55485
+1628504490650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofile93CULB"
+1628504491614	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\shubhav\\AppData\\Local\\Temp\\rust_mozprofile93CULB\\search.json.mozlz4", (void 0)))
+1628504496548	Marionette	INFO	Listening on port 55496
+1628504498570	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit sba4b_firefox_quantum@checkpoint.com.274877907091
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1628504508322	Marionette	INFO	Stopped listening on port 55496

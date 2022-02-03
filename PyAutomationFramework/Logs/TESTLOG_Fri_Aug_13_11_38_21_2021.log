@@ -1,0 +1,11 @@
+ 2021-08-13 11:38:22,012 : INFO : Getting the browser name from the CLI
+ 2021-08-13 11:38:24,254 : INFO : Opening the browser instance for chrome
+ 2021-08-13 11:38:26,374 : INFO : ***************   TestCase : 'test_POM_login' STARTS    *************
+ 2021-08-13 11:38:26,375 : INFO : ---------------------------------------------------------------------
+ 2021-08-13 11:38:26,382 : INFO : Launching the browser for https://admin-demo.nopcommerce.com
+ 2021-08-13 11:38:31,170 : INFO : Enter Email
+ 2021-08-13 11:38:31,330 : INFO : Enter password
+ 2021-08-13 11:38:31,444 : INFO : Click on Login
+ 2021-08-13 11:38:31,959 : INFO :                            
+ 2021-08-13 11:38:31,959 : INFO : ***********************       TEST END         ***********************
+ 2021-08-13 11:38:31,959 : INFO : ----------------------------------------------------------------------

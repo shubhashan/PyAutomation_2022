@@ -1,0 +1,8 @@
+{
+  "test_POMSerachCust.py::TestPOMOne::test_POM_login": true,
+  "test_POMSerachCust.py::TestPOMOne::test_POM_searchEmail": true,
+  "test_POMsearchbyemail.py::TestPOMOne::test_POM_searchEmail": true,
+  "test_UI2.py::TestUIOne1::test_uiTC2": true,
+  "test_sql.py::TestmySQLOne::test_mySQLTC1": true,
+  "test_test1.py::TestPOM2One": true
+}

@@ -1,0 +1,73 @@
+ 2021-07-29 10:20:30,658 : INFO : ******************   TestCase : 'test_postReqP1' STARTS    ****************
+ 2021-07-29 10:20:30,658 : INFO : ---------------------------------------------------------------------
+ 2021-07-29 10:20:30,658 : INFO : ===== Start 'POST' method testing
+ 2021-07-29 10:20:30,658 : INFO : testing for url https://reqres.in/api/users
+ 2021-07-29 10:20:30,658 : INFO : posting data for url : {
+"name": "ABC",
+"job": "leader"
+}
+ 2021-07-29 10:20:31,306 : INFO : 201
+ 2021-07-29 10:20:31,306 : INFO : The JSON response====
+ 2021-07-29 10:20:31,306 : INFO : {'id': '287', 'createdAt': '2021-07-29T04:50:23.649Z'}
+ 2021-07-29 10:20:31,306 : INFO : ===Test again with different data===
+ 2021-07-29 10:20:31,306 : INFO : posting data for url : {
+"name": "XYZ",
+"job": "leader123"
+}
+ 2021-07-29 10:20:31,722 : INFO : 201
+ 2021-07-29 10:20:31,722 : INFO : Data response====
+ 2021-07-29 10:20:31,722 : INFO : {'id': '744', 'createdAt': '2021-07-29T04:50:24.072Z'}
+ 2021-07-29 10:20:31,722 : INFO :                            
+ 2021-07-29 10:20:31,722 : INFO : ***********************       TEST END         ***********************
+ 2021-07-29 10:20:31,722 : INFO : ----------------------------------------------------------------------
+ 2021-07-29 10:20:31,722 : INFO :                            
+ 2021-07-29 10:20:31,722 : INFO : ******************   TestCase : 'test_postReqP2' STARTS    ****************
+ 2021-07-29 10:20:31,722 : INFO : ---------------------------------------------------------------------
+ 2021-07-29 10:20:31,722 : INFO : ===== Start 'POST' method testing
+ 2021-07-29 10:20:31,722 : INFO : testing for url https://reqres.in/api/users
+ 2021-07-29 10:20:31,738 : INFO : testing for url C:\\Users\\shubhav\\PycharmProjects\\APITesting\\PayloadFile.json
+ 2021-07-29 10:20:31,738 : INFO : -------------------------------
+ 2021-07-29 10:20:31,738 : INFO : {
+	"name": "XYZ",
+        "job": "leader123"
+}
+ 2021-07-29 10:20:32,123 : INFO : 201
+ 2021-07-29 10:20:32,123 : INFO : {'name': 'XYZ', 'job': 'leader123', 'id': '558', 'createdAt': '2021-07-29T04:50:24.464Z'}
+ 2021-07-29 10:20:32,123 : INFO :                            
+ 2021-07-29 10:20:32,123 : INFO : ***********************       TEST END         ***********************
+ 2021-07-29 10:20:32,123 : INFO : ----------------------------------------------------------------------
+ 2021-07-29 10:20:32,123 : INFO :                            
+ 2021-07-29 10:20:32,138 : INFO : ******************   TestCase : 'test_postReqP3' STARTS    ****************
+ 2021-07-29 10:20:32,138 : INFO : ---------------------------------------------------------------------
+ 2021-07-29 10:20:32,138 : INFO : ===== Start  'GET' method testing
+ 2021-07-29 10:20:32,145 : INFO : testing for url https://reqres.in/api/register
+ 2021-07-29 10:20:32,145 : INFO : testing data for url {
+"email": "eve.holt@reqres.in",
+"password": "pistol"
+}
+ 2021-07-29 10:20:32,561 : INFO : <Response [400]>
+ 2021-07-29 10:20:32,561 : INFO : {'error': 'Missing email or username'}
+ 2021-07-29 10:20:32,576 : INFO :                            
+ 2021-07-29 10:20:32,576 : INFO : ***********************       TEST END         ***********************
+ 2021-07-29 10:20:32,576 : INFO : ----------------------------------------------------------------------
+ 2021-07-29 10:20:32,576 : INFO :                            
+ 2021-07-29 10:20:32,592 : INFO : ******************   TestCase : 'test_postFileUploadTC1' STARTS    ****************
+ 2021-07-29 10:20:32,592 : INFO : ---------------------------------------------------------------------
+ 2021-07-29 10:20:32,592 : INFO : ===== Start 'POST' method testing for file upload
+ 2021-07-29 10:20:32,592 : INFO : testing for url http://httpbin.org/post
+ 2021-07-29 10:20:33,077 : INFO : ====Files content before upload====
+ 2021-07-29 10:20:33,077 : INFO : {}
+ 2021-07-29 10:20:33,077 : INFO : ===== JSON response========
+ 2021-07-29 10:20:33,077 : INFO : {'args': {}, 'data': '', 'files': {}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '0', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.25.1', 'X-Amzn-Trace-Id': 'Root=1-61023391-6aecccea63052ee641962536'}, 'json': None, 'origin': '122.181.217.16', 'url': 'http://httpbin.org/post'}
+ 2021-07-29 10:20:33,077 : INFO : File to upload is  {'file': <_io.BufferedReader name='kkk.txt'>}
+ 2021-07-29 10:20:33,546 : INFO : 200
+ 2021-07-29 10:20:33,546 : INFO : ====Files content after upload====
+ 2021-07-29 10:20:33,546 : INFO : {'file': 'API testing:\r\n\r\n\r\n1. use pytest marks\r\n\r\n@pytest.mark.httpGET\r\n@pytest.mark.APITests\r\n\r\n\r\nAll GET requests --- > APIValidationsGET.py\r\n\r\n'}
+ 2021-07-29 10:20:33,546 : INFO : ===== JSON response========
+ 2021-07-29 10:20:33,546 : INFO : {'args': {}, 'data': '', 'files': {'file': 'API testing:\r\n\r\n\r\n1. use pytest marks\r\n\r\n@pytest.mark.httpGET\r\n@pytest.mark.APITests\r\n\r\n\r\nAll GET requests --- > APIValidationsGET.py\r\n\r\n'}, 'form': {}, 'headers': {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate', 'Content-Length': '280', 'Content-Type': 'multipart/form-data; boundary=c9a0caae0896e1ddcc376967f982fa5c', 'Host': 'httpbin.org', 'User-Agent': 'python-requests/2.25.1', 'X-Amzn-Trace-Id': 'Root=1-61023391-30aac1f46ef1870546d50bf9'}, 'json': None, 'origin': '122.181.217.16', 'url': 'http://httpbin.org/post'}
+ 2021-07-29 10:20:33,546 : INFO : File upload was successful
+ 2021-07-29 10:20:33,546 : INFO : ==== TEST CASE PASSED====
+ 2021-07-29 10:20:33,546 : INFO :                            
+ 2021-07-29 10:20:33,546 : INFO : ***********************       TEST END         ***********************
+ 2021-07-29 10:20:33,546 : INFO : ----------------------------------------------------------------------
+ 2021-07-29 10:20:33,546 : INFO :                            

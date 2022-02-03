@@ -1,0 +1,21 @@
+ 2021-08-03 16:35:09,641 : INFO : ***************   TestCase : 'test_connectMYSQL' STARTS    *************
+ 2021-08-03 16:35:09,641 : INFO : ---------------------------------------------------------------------
+ 2021-08-03 16:35:09,642 : INFO : Trying to connect to the MYSQL server 
+ 2021-08-03 16:35:09,646 : INFO : MYSQL server : localhost
+ 2021-08-03 16:35:09,646 : INFO : User : root
+ 2021-08-03 16:35:09,646 : INFO : Password : freebsd
+ 2021-08-03 16:35:09,646 : INFO : database : PythonAutomation
+ 2021-08-03 16:35:09,673 : INFO : True
+ 2021-08-03 16:35:09,673 : INFO : Running the query on the mysql :  select * from CustomerInfo
+ 2021-08-03 16:35:09,693 : INFO : Fetching all the data from the table
+ 2021-08-03 16:35:09,694 : INFO : [('Jmeter', datetime.date(2021, 8, 2), 76, 'UK'), ('selenium', datetime.date(2021, 8, 2), 120, 'Africa'), ('Protractor', datetime.date(2021, 8, 2), 45, 'Africa'), ('Appium', datetime.date(2021, 8, 2), 99, 'Asia')]
+ 2021-08-03 16:35:09,696 : INFO : ===== printing in list form=====
+ 2021-08-03 16:35:09,696 : INFO : ('Jmeter', datetime.date(2021, 8, 2), 76, 'UK')
+ 2021-08-03 16:35:09,696 : INFO : ('selenium', datetime.date(2021, 8, 2), 120, 'Africa')
+ 2021-08-03 16:35:09,696 : INFO : ('Protractor', datetime.date(2021, 8, 2), 45, 'Africa')
+ 2021-08-03 16:35:09,696 : INFO : ('Appium', datetime.date(2021, 8, 2), 99, 'Asia')
+ 2021-08-03 16:35:09,696 : INFO : Adding all the amount values...... 
+ 2021-08-03 16:35:09,696 : INFO : Total sum is : 340 
+ 2021-08-03 16:35:09,697 : INFO :                            
+ 2021-08-03 16:35:09,698 : INFO : ***********************       TEST END         ***********************
+ 2021-08-03 16:35:09,698 : INFO : ----------------------------------------------------------------------
