@@ -1,18 +1,16 @@
-import requests
-import pytest
-
+from utilities.Utils import *
 # practice test scripts
 # HTTP GET method tests:
 
 # 1. GET response pass and looking for a particular name pass
-from utilities.Utils import UtilClassOne
+
 
 
 @pytest.mark.httpGET
 @pytest.mark.APITests
 class TestGETReq(UtilClassOne):
-    def test_getReqP1(self):
-        log = self.loggerC("test_getReqP1")
+    def test_getReqP1(self,log):
+        #log = self.loggerC("test_getReqP1")
         log.info("===== Start  'GET' method testing")
         url = self.getConfig("test_getReqP1", "url")
         log.info("testing for url %s" % url)
@@ -41,8 +39,8 @@ class TestGETReq(UtilClassOne):
 
     # 2. GET response pass and looking for a particular name fails
 
-    def test_getReqP2(self):
-        log = self.loggerC("test_getReqP2")
+    def test_getReqP2(self,log):
+        #log = self.loggerC("test_getReqP2")
         log.info("===== Start  'GET' method testing")
         url = self.getConfig("test_getReqP1", "url")
         log.info("testing for url %s" % url)
@@ -59,8 +57,8 @@ class TestGETReq(UtilClassOne):
 
     # 3. GET response using paramaeters pass case
 
-    def test_getReqP3(self):
-        log = self.loggerC("test_getReqP3")
+    def test_getReqP3(self,log):
+        #log = self.loggerC("test_getReqP3")
         log.info("===== Start  'GET' method testing")
         url = self.getConfig("test_getReqP3", "url")
         log.info("testing for url %s" % url)
@@ -80,8 +78,8 @@ class TestGETReq(UtilClassOne):
 
     # 4. GET response using paramaeters , response fails
 
-    def test_getReqP4(self):
-        log = self.loggerC("test_getReqP4")
+    def test_getReqP4(self,log):
+        #log = self.loggerC("test_getReqP4")
         log.info("===== Start  'GET' method testing")
         url = self.getConfig("test_getReqP4", "url")
         log.info("testing for url %s" % url)
@@ -96,8 +94,8 @@ class TestGETReq(UtilClassOne):
 
     # 4. GET time-out scenario
 
-    def test_getReqP5(self):
-        log = self.loggerC("test_getReqP5")
+    def test_getReqP5(self,log):
+        #log = self.loggerC("test_getReqP5")
         url = self.getConfig("test_getReqP5", "url")
         log.info("testing for url %s" % url)
         # Url="https://httpbin.org/delay/3"
@@ -106,17 +104,18 @@ class TestGETReq(UtilClassOne):
         log.info(res.status_code)
         assert res.status_code == 200, "Status is not 200,Req  timedout"
 
-    def test_getReqP6(self):
-        log = self.loggerC("test_getReqP6")
+    def test_getReqP6(self,log):
+        #log = self.loggerC("test_getReqP6")
         url = self.getConfig("test_getReqP5", "url")
         log.info("testing for url %s" % url)
         log.info("The GET method for timeout scenario,  the response times out")
+
         try:
             res = requests.get(url, timeout=2)
         except requests.exceptions.Timeout as e:
             log.info(e)
             log.info("GET method Time-out occured")
-            #log.info(res.status_code)
+
         except:
             log.info("Exception occured")
 

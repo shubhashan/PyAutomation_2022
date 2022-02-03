@@ -1,35 +1,162 @@
 {
-    "page": 2,
-    "per_page": 6,
-    "total": 12,
-    "total_pages": 2,
-    "data": [
-        {
-            "id": 7,
-            "email": "michael.lawson@reqres.in",
-            "first_name": "Michael",
-            "last_name": "Lawson",
-            "avatar": "https://reqres.in/img/faces/7-image.jpg"
-        },
-        {
-            "id": 8,
-            "email": "lindsay.ferguson@reqres.in",
-            "first_name": "Lindsay",
-            "last_name": "Ferguson",
-            "avatar": "https://reqres.in/img/faces/8-image.jpg"
-        },
-        {
-            "id": 9,
-            "email": "tobias.funke@reqres.in",
-            "first_name": "Tobias",
-            "last_name": "Funke",
-            "avatar": "https://reqres.in/img/faces/9-image.jpg"
-        },
-        {
-            "id": 10,
-            "email": "byron.fields@reqres.in",
-            "first_name": "Byron",
-            "last_name": "Fields",
-            "avatar": "https://reqres.in/img/faces/10-image.jpg"
-        }]
+  "tenantGuid": "a354954e-9f6c-4802-9774-c69f12e932c2",
+  "tenantId": 1441,
+  "userGuid": "991dcc29-d164-4ea9-a98f-037a9da6339c",
+  "userId": 1521,
+  "partitions": [
+    {
+      "partitionId": 8281,
+      "partitionGuid": "105F8E0F-BAAB-4978-B172-FAA2E8BA89D3",
+      "tenantId": 1441,
+      "partitionName": "Part7673330241431568",
+      "displayName": "Part7673330241431568",
+      "deploymentCode": "1"
+    },
+    {
+      "partitionId": 9142,
+      "partitionGuid": "55c69978-174f-4830-81e2-9e9db3647924",
+      "tenantId": 1441,
+      "partitionName": "55c69978-174f-4830-81e2-9e9db3647924",
+      "displayName": "North America Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12001,
+      "partitionGuid": "3f5d93c5-b06d-4565-917a-b9bb3218626e",
+      "tenantId": 1441,
+      "partitionName": "3f5d93c5-b06d-4565-917a-b9bb3218626e",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12002,
+      "partitionGuid": "287c968a-f005-41f6-a420-3c58566d59c7",
+      "tenantId": 1441,
+      "partitionName": "287c968a-f005-41f6-a420-3c58566d59c7",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12003,
+      "partitionGuid": "06936aac-bd1f-4a77-b17d-18950a819bc2",
+      "tenantId": 1441,
+      "partitionName": "06936aac-bd1f-4a77-b17d-18950a819bc2",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12041,
+      "partitionGuid": "1add4158-6434-44c3-b4d1-1b18fd59ef55",
+      "tenantId": 1441,
+      "partitionName": "1add4158-6434-44c3-b4d1-1b18fd59ef55",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12042,
+      "partitionGuid": "b4becec4-8811-4131-a32b-90cec2cfcd6a",
+      "tenantId": 1441,
+      "partitionName": "b4becec4-8811-4131-a32b-90cec2cfcd6a",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12061,
+      "partitionGuid": "d6e42c8a-c5a6-4d90-8a33-3dc046449472",
+      "tenantId": 1441,
+      "partitionName": "d6e42c8a-c5a6-4d90-8a33-3dc046449472",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12081,
+      "partitionGuid": "ee37e234-80ce-48ff-96a0-b9b0123b72ad",
+      "tenantId": 1441,
+      "partitionName": "ee37e234-80ce-48ff-96a0-b9b0123b72ad",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12082,
+      "partitionGuid": "3f4fc429-624f-4f01-89a3-b426142e1f0a",
+      "tenantId": 1441,
+      "partitionName": "3f4fc429-624f-4f01-89a3-b426142e1f0a",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12101,
+      "partitionGuid": "0d703691-152e-4d39-a314-a5f45f21b0b2",
+      "tenantId": 1441,
+      "partitionName": "0d703691-152e-4d39-a314-a5f45f21b0b2",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12102,
+      "partitionGuid": "58bc1358-6a8c-4b6f-8071-d0327b8f9175",
+      "tenantId": 1441,
+      "partitionName": "58bc1358-6a8c-4b6f-8071-d0327b8f9175",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12121,
+      "partitionGuid": "9bd9763f-bf78-473f-b4cd-dfa694559e18",
+      "tenantId": 1441,
+      "partitionName": "9bd9763f-bf78-473f-b4cd-dfa694559e18",
+      "displayName": "Data1 Partition",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12143,
+      "partitionGuid": "e04b7d79-5447-4b42-89bd-54801825bf43",
+      "tenantId": 1441,
+      "partitionName": "e04b7d79-5447-4b42-89bd-54801825bf43",
+      "displayName": "DataConnection1",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12161,
+      "partitionGuid": "d8e88dba-a85a-4178-a1ee-bcc135203693",
+      "tenantId": 1441,
+      "partitionName": "d8e88dba-a85a-4178-a1ee-bcc135203693",
+      "displayName": "dataconnection1",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12201,
+      "partitionGuid": "bcb0be9c-dd67-4289-b84b-a72b5ca9ce99",
+      "tenantId": 1441,
+      "partitionName": "bcb0be9c-dd67-4289-b84b-a72b5ca9ce99",
+      "displayName": "dataconnectiondot",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12202,
+      "partitionGuid": "78542682-5fc6-4eb7-b3df-b9caab50eef8",
+      "tenantId": 1441,
+      "partitionName": "78542682-5fc6-4eb7-b3df-b9caab50eef8",
+      "displayName": "dataconnectiondot",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12882,
+      "partitionGuid": "d51a85bf-1b6e-4f4e-808a-f51ca4d3750b",
+      "tenantId": 1441,
+      "partitionName": "d51a85bf-1b6e-4f4e-808a-f51ca4d3750b",
+      "displayName": "dataconnectiondot",
+      "deploymentCode": "saa3"
+    },
+    {
+      "partitionId": 12921,
+      "partitionGuid": "d1b334c8-8181-4b80-a86a-4bdba142f7d9",
+      "tenantId": 1441,
+      "partitionName": "d1b334c8-8181-4b80-a86a-4bdba142f7d9",
+      "displayName": "dataconnectiondot",
+      "deploymentCode": "saa3"
+    }
+  ],
+  "snowflakeSchemaNameForTenant": "ITI_TENANT_1441",
+  "onboardingStatus": "Completed"
 }

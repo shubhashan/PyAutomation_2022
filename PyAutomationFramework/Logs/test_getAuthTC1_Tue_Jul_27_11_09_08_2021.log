@@ -1,6 +1,0 @@
-2021-07-27 11:09:08,532 : INFO : test_getAuthTC1 : ===== Start 'GET' method testing with auth enabled but fails
-2021-07-27 11:09:08,534 : INFO : test_getAuthTC1 : testing for url https://api.github.com/user
-2021-07-27 11:09:08,868 : INFO : test_getAuthTC1 : The response is : <Response [401]> 
-2021-07-27 11:09:08,869 : INFO : test_getAuthTC1 : The JSON response is :  {'message': 'Requires authentication', 'documentation_url': 'https://docs.github.com/rest/reference/users#get-the-authenticated-user'}
-2021-07-27 11:09:08,869 : INFO : test_getAuthTC1 : Accessing resource without authentication unsuccessful 
-2021-07-27 11:09:08,870 : INFO : test_getAuthTC1 : =======TEST CASE PASSED=========

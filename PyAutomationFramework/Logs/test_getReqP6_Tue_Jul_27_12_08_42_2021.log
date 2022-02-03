@@ -1,4 +1,0 @@
-2021-07-27 12:08:42,769 : INFO : test_getReqP6 : testing for url https://httpbin.org/delay/3
-2021-07-27 12:08:42,770 : INFO : test_getReqP6 : The GET method for timeout scenario, test case must fail as the response times out
-2021-07-27 12:08:45,517 : INFO : test_getReqP6 : HTTPSConnectionPool(host='httpbin.org', port=443): Read timed out. (read timeout=2)
-2021-07-27 12:08:45,518 : INFO : test_getReqP6 : GET method Time-out occured

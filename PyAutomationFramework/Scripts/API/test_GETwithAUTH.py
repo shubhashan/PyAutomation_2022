@@ -14,8 +14,8 @@ from utilities.Utils import UtilClassOne
 @pytest.mark.APITests
 class TestgetAuth(UtilClassOne):
 
-    def test_getAuthTC1(self):
-        log = self.loggerC("test_getAuthTC1")
+    def test_getAuthTC1(self,log):
+        #log = self.loggerC("test_getAuthTC1")
         log.info("===== Start 'GET' method testing with auth enabled but fails")
         url = self.getConfig("test_getAuthTC1", "url")
         user = self.getConfig("test_getAuthTC1", "user")
@@ -31,8 +31,8 @@ class TestgetAuth(UtilClassOne):
             log.info("Accessing resource without authentication unsuccessful ")
             log.info("=======TEST CASE PASSED=========")
 
-    def test_getAuthTC2(self):
-        log = self.loggerC("test_getAuthTC2")
+    def test_getAuthTC2(self,log):
+        #log = self.loggerC("test_getAuthTC2")
         log.info("===== Start 'GET' method testing with basic auth")
         url = self.getConfig("test_getAuthTC2", "url")
         user = self.getConfig("test_getAuthTC2", "user")

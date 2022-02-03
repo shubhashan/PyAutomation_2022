@@ -1,18 +1,29 @@
-import json
-import requests
-import pytest
+
 
 # 1. Upload files
-from utilities.Utils import UtilClassOne
+from utilities.Utils import *
 
 
 @pytest.mark.httpPOST
 @pytest.mark.APITests
 class TestPOSTFileUpload(UtilClassOne):
-    def test_postFileUploadTC1(self):
-        log = self.loggerC("test_postFileUploadTC1")
+    def test_postFileUploadTC1(self,log):
+        #log = self.loggerC("test_postFileUploadTC1")
         log.info("===== Start 'POST' method testing for file upload")
-        url = self.getConfig("test_postFileUploadTC1", "url")
+        # just trying exception
+        '''''
+        try:
+            url222 = self.getConfig("test_postFileUploadTC1", "url233")
+        except Exception as e:
+            log.error("Exception occured")
+            log.info(e)
+        '''
+        try:
+            url = self.getConfig("test_postFileUploadTC1", "url")
+        except Exception as e:
+            log.error("Exception occured")
+            log.info(e)
+
         log.info("testing for url %s" % url)
         #file = self.getConfig("test_postFileUploadTC1", "file")
         fileName = self.getConfig("test_postFileUploadTC1", "fileName")
@@ -40,3 +51,12 @@ class TestPOSTFileUpload(UtilClassOne):
 
         log.info("File upload was successful")
         log.info("==== TEST CASE PASSED====")
+
+
+
+
+
+
+
+
+

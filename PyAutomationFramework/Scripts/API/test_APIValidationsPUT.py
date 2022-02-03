@@ -15,8 +15,8 @@ from utilities.Utils import UtilClassOne
 @pytest.mark.APITests
 class TestPUTReq(UtilClassOne):
     @pytest.mark.httpPUT
-    def test_putReqP1(self):
-        log = self.loggerC("test_putReqP1")
+    def test_putReqP1(self,log):
+        #log = self.loggerC("test_putReqP1")
         log.info("===== Start  'PUT' method testing")
         url = self.getConfig("test_putReqP1", "url")
         log.info("testing for url %s" % url)
@@ -35,8 +35,8 @@ class TestPUTReq(UtilClassOne):
             log.info("==== TEST CASE PASSED======")
 
     @pytest.mark.httpPATCH
-    def test_patchReqP1(self):
-        log = self.loggerC("test_patchReqP1")
+    def test_patchReqP1(self,log):
+        #log = self.loggerC("test_patchReqP1")
         log.info("===== Start  'PATCH' method testing")
         url = self.getConfig("test_patchReqP1", "url")
         log.info("testing for url %s" % url)

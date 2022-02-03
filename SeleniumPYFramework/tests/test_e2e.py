@@ -27,4 +27,5 @@ class TestOne(BaseClass):
         print("INFO: %s"%self.driver.current_url)
         assert self.driver.current_url == "https://www.excellarate.com/"
 
+
         self.driver.close()

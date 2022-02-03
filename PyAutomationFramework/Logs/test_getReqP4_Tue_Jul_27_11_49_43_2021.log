@@ -1,3 +1,0 @@
-2021-07-27 11:49:43,881 : INFO : test_getReqP4 : ===== Start  'GET' method testing
-2021-07-27 11:49:43,884 : INFO : test_getReqP4 : testing for url https://reqres.in/api/users/23
-2021-07-27 11:49:44,299 : INFO : test_getReqP4 : 404

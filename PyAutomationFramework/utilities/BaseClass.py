@@ -1,55 +1,69 @@
 import inspect
 import logging
-
 from configparser import ConfigParser
 
-class Config1():
-    def getConfig(self,testcase,value):
-        file = "config.ini"
-        config = ConfigParser()
-        config.read(file)
-        print(config.read(file))
-        configValue = config[testcase][value]
-        return configValue
+import openpyxl
 
-    def setConfig(self,testcase,key,value):
-        file = "config.ini"
-        config = ConfigParser()
-        config.read(file)
-        self.configValue=config.set(testcase,key,value)
-        with open(file, 'w') as configFile:
-            config.write(configFile)
-        return self.configValue
-
-
-c1=Config1()
-#print(c1.getConfig("deleteReqP2","url"))
-
-class Hel(Config1):
-    def hel(self):
-        print("hello")
-        #print(self.getConfig("deleteReqP1","url"))
-
-
-c2=Hel()
-print(c2.getConfig("deleteReqP2","url"))
-
-
-class BaseClassOne:
-    #Logging class
-    def loggerC(self):
+    '''''
+    # Logging class
+    def loggerC(self,ID="TC"):
         # logger will automatically capture the file name when yu give __name__
         logName = inspect.stack()[1][3]
         logObj = logging.getLogger(logName)
-        filePath="logs/fileLogAPItests.log"
-        LogHandle = logging.FileHandler(filePath)
-        logFormat = logging.Formatter("%(asctime)s : %(levelname)s : %(name)s : %(message)s")  # format for log file message
+        file = time.asctime()
+        file = str(file)
+        file = file.replace(" ", "_")
+        file = file.replace(".", "_")
+        timeStamp = file.replace(":", "_")
+        logPath = LogFilePath + "\\Log_"+ ID + "_" + timeStamp + ".log"
+        LogHandle = logging.FileHandler(logPath)
+        logFormat = logging.Formatter(
+            "%(name)s : %(asctime)s : %(levelname)s : %(message)s")  # format for log file message
         LogHandle.setFormatter(logFormat)
         # add the file details where the file logging must be done
         logObj.addHandler(LogHandle)
-        #print(debugLevel)
+        # print(debugLevel)
         logObj.setLevel(logging.DEBUG)
         return logObj
+'''''
+
+
+
+def readFromExcel(file):
+    print("Reading from excel")
+    book = openpyxl.load_workbook(file)
+    total=book.sheetnames
+    print(total)
+    sheet = book.active
+    print(sheet)
+    if sheet !='Sheet2':
+
+        book.move_sheet('Sheet1')
+    sheet = book.active
+    print(sheet)
+
+readFromExcel("C:\\Users\\shubhav\\PycharmProjects\\PyAutomationFramework\\utilities\\PythonXLS.xlsx")
+
+
+
+class MySQLclass:
+    def connectMYSQLserver(self, log, host, database, username, pwd):
+        log.info("Trying to connect to the MYSQL server ")
+        try:
+            conn = mysql.connector.connect(host=host, database=database, user=username,
+                                           password=pwd)
+            if conn.is_connected():
+                log.info("connection to Database successful")
+                return conn
+        except Error as e:
+            log.error(e)
+
+    def getMYSQLQuery(self, query):
+        #Connection = connectMYSQLserver(self, host, database, username, pwd)
+        cursor = Connection.cursor()
+        cursor.execute(query)
+        result=cursor.fetchall()
+        return result
 
 
 

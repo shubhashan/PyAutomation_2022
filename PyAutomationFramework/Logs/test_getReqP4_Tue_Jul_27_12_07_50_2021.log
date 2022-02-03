@@ -1,6 +1,0 @@
-2021-07-27 12:07:50,318 : INFO : test_getReqP4 : ===== Start  'GET' method testing
-2021-07-27 12:07:50,321 : INFO : test_getReqP4 : testing for url https://reqres.in/api/users/23
-2021-07-27 12:07:50,397 : INFO : test_getReqP4 : 404
-2021-07-27 12:07:50,397 : INFO : test_getReqP4 : {}
-2021-07-27 12:07:50,397 : INFO : test_getReqP4 : Accessing invalid response ... Status is 404 
-2021-07-27 12:07:50,397 : INFO : test_getReqP4 : === TEST CASE PASSED

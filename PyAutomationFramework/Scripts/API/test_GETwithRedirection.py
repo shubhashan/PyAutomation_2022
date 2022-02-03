@@ -13,8 +13,8 @@ import pytest
 @pytest.mark.httpRedirect
 @pytest.mark.APITests
 class TestgetRedirect(UtilClassOne):
-    def test_getRedirectTC1(self):
-        log = self.loggerC("test_getRedirectTC1")
+    def test_getRedirectTC1(self,log):
+        #log = self.loggerC("test_getRedirectTC1")
         log.info("===== Start 'GET' method testing with redirection")
         url = self.getConfig("test_getRedirectTC1", "url")
         log.info("testing redirection for url %s" % url)
@@ -34,8 +34,8 @@ class TestgetRedirect(UtilClassOne):
             log.info("Redirection works as expected")
             log.info("=======TEST CASE PASSED=========")
 
-    def test_getRedirectTC2(self):
-        log = self.loggerC("test_getRedirectTC2")
+    def test_getRedirectTC2(self,log):
+        #log = self.loggerC("test_getRedirectTC2")
         log.info("===== Start 'GET' method testing with redirection set to false")
         #using the same URL for both the test cases
         url = self.getConfig("test_getRedirectTC1", "url")

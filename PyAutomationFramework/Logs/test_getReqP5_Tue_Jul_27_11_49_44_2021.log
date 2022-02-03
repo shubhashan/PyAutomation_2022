@@ -1,2 +1,0 @@
-2021-07-27 11:49:44,361 : INFO : test_getReqP5 : testing for url https://httpbin.org/delay/3
-2021-07-27 11:49:48,343 : INFO : test_getReqP5 : 200

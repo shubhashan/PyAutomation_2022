@@ -1,13 +1,28 @@
 ======  TESTING using python ( PYTEST ) ==========
 
+Packages to be installed ( pre-requisite)
+
+Pytest
+requests
+selenium
+openpyxl
+pytest-html
+mysql-connector-python
+jsonpath
+
+All these are added in run.bat file. Just run the .bat file to install all these packages
+
+
 1. All scripts written under Scripts folder
 	Every feature has a subfolder within this ex : API ( has seperate folder)
-2. All the logs are captured in Logs folder - <name of tc>_<timestamp>.log  format
-	ex: test_postFileUploadTC1_Mon_Jul_26_18_20_04_2021.log
+2. All the logs are captured in Logs folder - TESTLOG_<timestamp>.log  format
+	ex: TESTLOG_Mon_Jul_26_18_20_04_2021.log
 3. Common functions are placed under Utils.py in the utilities folder
 	Logging function
 	Getconfig - function to read & get data from config.ini
-4. All files required for data like CSV/Excel etc are placed in the utilities folder itself
+
+4. Config.ini - placed under utilities folder, where all the config data is placed test case wise
+5. All files required for data like CSV/Excel etc are placed in the utilities folder itself
 5. Marks Used: ( for grouping)
 	@pytest.mark.APITests  --- for all API tests
 	@pytest.mark.httpGET   --- for all GET method
@@ -17,6 +32,8 @@
 	@pytest.mark.httpDELETE  --- for DELETE method
 	@pytest.mark.httpPATCH
 	@pytest.mark.httpPUT
+
+	@pytest.mark.UITests  -- used for all web UI test cases
 
 6. Scenarios:
 	1. GET ( with basic auth, authorisation header, O-auth token , redirection, timeouts)
